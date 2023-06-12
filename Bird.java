@@ -1,3 +1,5 @@
+package quest_java_oop3;
+
 public abstract class Bird {
   
     // attributes  
@@ -26,6 +28,10 @@ public abstract class Bird {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public abstract int descend(int altitude);
+
+    public abstract int ascend(int altitude);
 
     // méthodes
     public abstract String sing();

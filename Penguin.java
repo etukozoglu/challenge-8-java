@@ -1,3 +1,5 @@
+package quest_java_oop3;
+
 public class Penguin extends Bird implements Swim {
 
     private boolean swimming;
@@ -7,6 +9,16 @@ public class Penguin extends Bird implements Swim {
         super(name);
         this.swimming = false;
         this.depths = 0;
+    }
+
+    @Override
+    public int descend(int altitude) {
+        return 0;
+    }
+
+    @Override
+    public int ascend(int altitude) {
+        return 0;
     }
 
     @Override

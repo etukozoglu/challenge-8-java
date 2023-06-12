@@ -1,3 +1,5 @@
+package quest_java_oop3;
+
 public interface Swim {
 
     void dive();
